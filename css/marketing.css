@@ -220,6 +220,24 @@ a.pure-button-primary {
     background: #111;
 }
 
+/* 
+STACEY to add
+*/
+
+.main-content{
+    
+   margin-top:60px;
+}
+
+.showing{
+    display:block;
+}
+.hiding{
+    display:none;
+}
+
+
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
