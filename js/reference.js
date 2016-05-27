@@ -80,7 +80,7 @@ $(document).ready(function () {
     //         }
     //   });
      
-     $.getJSON("./test.json",function(json){
+     $.getJSON("./public/test.json",function(json){
          var addresses = [];
          for(var i =0; i < json.length;i++){
              var street = json[i].ServiceAddress;
