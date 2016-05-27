@@ -219,6 +219,10 @@ a.pure-button-primary {
 .footer {
     background: #111;
 }
+#left, #right {
+ width: 10px; //change this to whatever required
+ float: left;
+}
 
 /* 
 STACEY to add

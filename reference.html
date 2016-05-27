@@ -39,7 +39,9 @@
         <link rel="stylesheet" href="css/marketing.css">
     <!--<![endif]-->
 <script src="./js/vendor/jquery-1.12.0.min.js"></script>
+
 <script src="./js/reference.js"></script>
+<!--<script src="./js/map.js"></script>-->
 </head>
 <body>
 
@@ -63,6 +65,11 @@
         </ul>
  </div>
 <div class="content">
+    <div id ="left">
+        <div id='myMap' style='width: 50vw; height: 75vh;'></div>
+
+  <!--</div>
+    <div id= "right">
     <div class="housing-item hiding">
         <h3>Housing Resources</h3>
         <ul>
@@ -87,6 +94,10 @@
             <li>Budget Resource 3</li>   
         </ul>
    </div>
+   </div>-->
+   
 </div>
+
+<script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=loadMapScenario' async defer></script>
 </body>
 </html>
