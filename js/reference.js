@@ -94,7 +94,7 @@ $(document).ready(function () {
         //  console.log(addresses);
                     var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
                         credentials: 'AnAmvPCLpNnwtRblvEQNVb86D__AA0iYU7Wlxp7q5FzDbFaT7hGrCMYr9k5pVcJo',
-                        center: new Microsoft.Maps.Location(data[0],data[1]),
+                        center: new Microsoft.Maps.Location(38.8939174,-77.0309158),
                         // bounds: center.bestView
                     });
                     var center = map.getCenter();
