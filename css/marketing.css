@@ -232,6 +232,40 @@ iframe{
 
 }
 
+.fa-facebook,.fa-skype{
+    color:#ffffff;
+    font-size:20px;
+}
+
+
+
+.cta a{
+    text-transform:none;
+    text-decoration:none;
+    color:#fec742;
+    margin-bottom:10px;
+}
+
+.phone i{
+    float:left;
+    display: block;
+    margin-top: 25px;
+   
+}
+.phone{
+    color:#ffffff;
+    font-size:24px;
+}
+.cta a:hover{
+    color:#d3a235;
+}
+
+
+
+
+
+
+
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
     font-weight: 400;
