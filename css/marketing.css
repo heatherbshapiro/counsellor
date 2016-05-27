@@ -264,6 +264,10 @@ iframe{
     background: #8FA035;
     color:#ffffff;
 }
+#left, #right {
+ width: 10px; //change this to whatever required
+ float: left;
+}
 
 
 
